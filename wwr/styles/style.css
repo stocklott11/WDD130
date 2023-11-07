@@ -196,6 +196,19 @@ nav {
     opacity: .6;
     transform: scale(1.1);
 }
+/**Blog Page**/
+
+.blog-main{
+    max-width: 600px;
+    margin: 0 auto;
+}
+.blog-post{
+    background-color: aliceblue;
+    color: #023047;
+    border-radius: 10px;
+    padding: 1rem;
+    margin: 0.5rem 0;
+}
 
 @media screen and (max-width: 900px) {
     #hero, .home-grid {

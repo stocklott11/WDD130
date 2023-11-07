@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Week 9 Challenge</title>
+    <style>
+        body{
+            background-color: black;
+        }
+        .card{
+            max-width: 400px;
+            margin: 0 auto;
+            background-color: white;
+            border-radius: 10px;
+            overflow: hidden;
+        }
+        .card img{
+            width: 100%;
+        }
+        .stats{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            background-color: navy;
+            height: 100px;
+            align-content: center;
+        }
+        .stats div:nth-child(3){
+            border: none;
+        }
+        .stat{
+            color: white;
+            text-align: center;
+            border-right: 1px grey solid;
+        }
+        .stat p{
+            margin-block-start: 0;
+            margin-block-end: 0;
+        }
+        .stat1{
+            font-size: 1.5rem;
+        }
+        .stat2{
+            font-size: .8rem;
+        }
+
+    </style>
+</head>
+<body>
+    <section class="card">
+        <img src="#" alt="cityscape">
+        <p class="timing">3 weeks ago</p>
+        <p class="heading">Post Three</p>
+        <p class="content">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Adipisci qui at officia ratione quae! Doloremque minus voluptatibus, necessitatibus architecto corrupti debitis eaque, reiciendis aliquid aliquam obcaecati, dolores nemo recusandae expedita voluptatum itaque praesentium. Quo voluptatem laboriosam eum cupiditate vero tempora, assumenda accusantium quidem beatae fugiat, vel error dicta maiores maxime illo cumque velit ipsam, reiciendis ullam hic earum nostrum porro unde? Eius, explicabo sapiente beatae earum asperiores est cupiditate. Voluptatibus odit magni ut omnis dignissimos excepturi expedita minus. Expedita nemo eos dolorum cum praesentium voluptates asperiores voluptatum. Culpa nisi sunt blanditiis facilis ipsum consectetur aut, quis, earum eaque labore recusandae!</p>
+        <div class="stats">
+            <div class="stat">
+                <p class="stat1">5<sup>m</sup></p>
+                <p class="stat2">READ</p>
+            </div>
+            <div class="stat">
+                <p class="stat1">2031</p>
+                <p class="stat2">VIEWS</p>
+            </div>
+            <div class="stat">
+                <p class="stat1">15</p>
+                <p class="stat2">COMMENTS</p>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
