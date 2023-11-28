@@ -90,8 +90,9 @@ footer {
 }
 footer p {
     font-size: 1.2em;
+    text-align: center;
 }
 .websites img {
     width: 100px;
-    grid-column: auto;
+    margin: 0 auto;
 }
