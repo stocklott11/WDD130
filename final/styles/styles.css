@@ -87,12 +87,16 @@ footer {
     display: grid;
     grid-template-columns: 1fr 1fr;
     border: 5px solid #6bb3ff;
+    justify-content: center;
 }
 footer p {
     font-size: 1.2em;
+    grid-column: 1/2;
     text-align: center;
 }
 .websites img {
     width: 100px;
+}
+.websites {
     margin: 0 auto;
 }
