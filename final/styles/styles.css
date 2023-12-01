@@ -100,3 +100,69 @@ footer p {
 .websites {
     margin: 0 auto;
 }
+.brands-main {
+    display: grid;
+    grid-template-columns: 1fr 2fr 2fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+.brands-heading {
+    text-align: center;
+    margin-top: 100px;
+    margin-left: 100px;
+    margin-right: 100px;
+    grid-row: 1/2;
+}
+.polaris_brand {
+    grid-row: 1/2;
+}
+.skidoo_brand {
+    grid-row: 2/3;
+}
+.arcticcat_brand {
+    grid-row: 3/4;
+}
+.polaris-img, .skidoo-img, .ac-img {
+    width: 100%;
+}
+.polaris_img {
+    grid-column: 3/4;
+}
+.polaris_msg {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    text-align: center;
+}
+.skidoo_img {
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+.skidoo-msg {
+    grid-column: 3/4;
+    grid-row: 2/3;
+    text-align: center;
+}
+.arcticcat_img {
+    grid-column: 3/4;
+    grid-row: 3/4;
+}
+.ac-msg {
+    grid-column: 2/3;
+    grid-row: 3/4;
+    text-align: center;
+}
+.polaris_msg h1 {
+    color: #0075ff;
+    font-size: 40px;
+}
+.skidoo-msg h1 {
+    color: #0075ff;
+    font-size: 40px;
+}
+.ac-msg h1 {
+    color: #0075ff;
+    font-size: 40px;
+}
+.brands-heading h1 {
+    color: #005ec9;
+    font-size: 65px;
+}
