@@ -92,13 +92,17 @@ footer {
 footer p {
     font-size: 1.2em;
     grid-column: 1/2;
-    text-align: center;
+    text-align: left;
+    padding-left: 35px;
 }
 .websites img {
     width: 100px;
 }
 .websites {
-    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+    align-items: center;
 }
 .brands-main {
     display: grid;
@@ -151,15 +155,15 @@ footer p {
     text-align: center;
 }
 .polaris_msg h1 {
-    color: #0075ff;
+    color: #005ec9;
     font-size: 40px;
 }
 .skidoo-msg h1 {
-    color: #0075ff;
+    color: #005ec9;
     font-size: 40px;
 }
 .ac-msg h1 {
-    color: #0075ff;
+    color: #005ec9;
     font-size: 40px;
 }
 .brands-heading h1 {
