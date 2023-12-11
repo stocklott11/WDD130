@@ -174,7 +174,42 @@ footer a:hover {
     grid-row: 1/2;
     font-family: 'Oswald';
 }
-.polaris_brand {
+#polaris_img {
+    width: 100%;
+    grid-column: 3/4;
+    grid-row: 1/2;
+}
+#polaris_msg {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    text-align: center;
+}
+#skidoo_img {
+    width: 100%;
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+#skidoo_msg {
+    grid-column: 3/4;
+    grid-row: 2/3;
+    text-align: center;
+}
+#ac_img {
+    width: 100%;
+    grid-column: 3/4;
+    grid-row: 3/4;
+}
+#ac_msg {
+    grid-column: 2/3;
+    grid-row: 3/4;
+    text-align: center;
+}
+/* #polaris_title, #polaris_para {
+    grid-column: 3/4;
+    grid-row: 1/2;
+    text-align: center; */
+/* } */
+/* .polaris_brand {
     grid-row: 1/2;
 }
 .skidoo_brand {
@@ -193,8 +228,8 @@ footer a:hover {
     grid-column: 2/3;
     grid-row: 1/2;
     text-align: center;
-    font-family: 'Mulish';
-}
+    font-family: 'Mulish'; */
+/* }
 .skidoo_img {
     grid-column: 2/3;
     grid-row: 2/3;
@@ -230,7 +265,7 @@ footer a:hover {
 .brands-heading h1 {
     color: #005ec9;
     font-size: 65px;
-}
+} */
 .tips-main {
     display: grid;
     grid-template-columns: 1fr 3fr 1fr;
