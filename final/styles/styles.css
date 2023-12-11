@@ -230,64 +230,6 @@ footer a:hover {
 #ac_msg p {
     font-family: 'Mulish';
 }
-/* #polaris_title, #polaris_para {
-    grid-column: 3/4;
-    grid-row: 1/2;
-    text-align: center; */
-/* } */
-/* .polaris_brand {
-    grid-row: 1/2;
-}
-.skidoo_brand {
-    grid-row: 2/3;
-}
-.arcticcat_brand {
-    grid-row: 3/4;
-}
-.polaris-img, .skidoo-img, .ac-img {
-    width: 100%;
-}
-.polaris_img {
-    grid-column: 3/4;
-}
-.polaris_msg {
-    grid-column: 2/3;
-    grid-row: 1/2;
-    text-align: center;
-    font-family: 'Mulish'; */
-/* }
-.skidoo_img {
-    grid-column: 2/3;
-    grid-row: 2/3;
-}
-.skidoo-msg {
-    grid-column: 3/4;
-    grid-row: 2/3;
-    text-align: center;
-    font-family: 'Mulish';
-}
-.arcticcat_img {
-    grid-column: 3/4;
-    grid-row: 3/4;
-}
-.ac-msg {
-    grid-column: 2/3;
-    grid-row: 3/4;
-    text-align: center;
-    font-family: 'Mulish';
-}
-.polaris_msg h1 {
-    color: #005ec9;
-    font-size: 40px;
-}
-.skidoo-msg h1 {
-    color: #005ec9;
-    font-size: 40px;
-}
-.ac-msg h1 {
-    color: #005ec9;
-    font-size: 40px;
-}*/
 .brands-heading h1 {
     color: #005ec9;
     font-size: 65px;
